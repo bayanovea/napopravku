@@ -1,0 +1,64 @@
+.clear{
+	clear: both;
+}
+
+.main_section{
+	width: 1200px;
+	margin: 15px auto 15px auto;
+	padding: 15px;
+	border: 1px solid rgb(219, 219, 219);
+}
+
+.receptions{
+	margin-bottom: 40px;
+}
+.reception-list tr.delete td{
+	background-color: #FFD1D1 !important;
+}
+
+.speciality{
+	width: 200px;
+	float: left;
+}
+.speciality-head, .date-head, .availabel-list-head{
+	font-weight: bold;
+	font-size: 16px;
+}
+ul.speciality-list{
+	list-style: none;
+	border: 1px solid rgb(219, 219, 219);
+	margin-left: 0px;
+	border-radius: 4px;
+	padding: 5px 0px 5px 0px;
+}
+ul.speciality-list li{
+	cursor: pointer;
+	padding: 0px 10px 0px 10px;
+}
+ul.speciality-list li:hover, ul.speciality-list li.active{
+	background-color: rgb(213, 255, 213);
+}
+
+.date{
+	width: 275px;
+	float: left;
+	margin-left: 40px;
+}
+
+.available-doctors{
+	float: left;
+	margin-left: 40px;
+}
+.empty-available-doctors, .empty-doctors-hourse{
+	font-weight: bold;
+	color: red;
+}
+.doctor-item{
+	margin-bottom: 10px;
+}
+.book-appointment{
+	position: relative;
+	top: -6px;
+	left: 20px;
+	width: 112px;
+}
